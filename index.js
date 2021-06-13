@@ -1,3 +1,5 @@
+exports.DataTypes = require('./lib/dataTypes');
+
 // SSO
 exports.Address = require('./lib/sso/address');
 exports.UserStatistics = require('./lib/sso/userStatistics');
@@ -44,3 +46,6 @@ exports.OrderStatus = require('./lib/order/orderStatus');
 exports.OrderItem = require('./lib/order/orderItem');
 exports.Order = require('./lib/order/order');
 exports.Customer = require('./lib/order/customer');
+
+exports.CreateProductParameters = require('./lib/order/requestparams/createProductParameters');
+exports.UpdateProductParameters = require('./lib/order/requestparams/updateProductParameters');

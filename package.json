@@ -1,6 +1,6 @@
 {
   "name": "@1onlinesolution/dws-models",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Model classes",
   "main": "index.js",
   "directories": {
